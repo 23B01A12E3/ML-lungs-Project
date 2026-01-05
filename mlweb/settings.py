@@ -25,7 +25,11 @@ SECRET_KEY = 'django-insecure-2hlr52&g_!wz&*w35pe%@dk7^b*q+evjc6(-s8c-wg%s!2-@d9
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    'ml-lungs-project1.onrender.com',
+    'localhost',
+    '127.0.0.1'
+]
 
 
 # Application definition
